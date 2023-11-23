@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+
+.logo{
+    /* width: 5%; */
+}
+.nav{
+    /* margin-left: 180px; */
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav ul{
+    /* width: 65%; */
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* background-color: #fff; */
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.nav ul li a{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+
+.nav ul li a:hover{
+    background-color: rgba(255, 255, 255,1);
+    color: #333;
+    padding: 2px 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.calltoaction{
+    /* justify-content: space-around; */
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+}
+.calltoaction .login{
+    margin-right: 20px;
+}
+
+.calltoaction span{
+    margin: 8px;
+}
+
+.calltoaction button{
+    font-weight: bolder;
+    color: #fff;
+    background-color: blue;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* margin: 5px; */
+}
+
+.calltoaction button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.calltoaction button:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.container{
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+
+.transparentflex{
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 390px;
+    left: 50px;
+    /* opacity: 1.5; */
+}
+
+.boxmini{
+    width: 10%;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 90px;
+    /* position: absolute; */
+}
+
+.boxmini span{
+    /* padding: 0; */
+}
+
+.box1{
+    width: 30%;
+    padding: 0;
+    /* position: relative; */
+    /* margin-left: 100px;
+    margin-right: 40px; */
+}
+
+.container {
+    /* height: 300px; */
+    width: 100%;
+    position: relative;
+  }
+  
+.details{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 30%;
+}
+
+.details button{
+    font-weight: bolder;
+    color: #fff;
+    background-color: blue;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.details button:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.name{
+    font-size: 40px;
+}
+
+.cointainer .slide{
+    /* height: 200px; */
+    width: 100%;
+}
+
+.slide img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blueboxes{
+    /* background-color: blue; */
+    color: #fff;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 0;
+}
+
+.boxemex{
+    background-color: blue;
+    width: 25%;
+    line-height: 150px;
+}
+
+.box{
+    background-color: rgba(0, 0, 255, 0.738);
+    width: 25%;
+    display: inline;
+    padding-left: 80px;
+    position: relative;
+}
+
+.box span{
+    border-radius: 50%;
+    color: #333;
+    background-color: yellow;
+    padding: 15px;
+    position: absolute;
+    left: 2px;
+    top: 40px;
+}
+
+.prev, .next{
+    display: none;
+}
+
+.section2 h2{
+    text-align: center;
+    Padding: 0 700px;
+}
+
+.section2 p{
+    text-align: center;
+    Padding: 0 550px;
+}
+
+.flexboxes{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    /* gap: 30px; */
+}
+
+.flexbox1{
+    /* background-color: rgba(0, 0, 255, 0.37); */
+    background: url(/images/computer-networking-removebg-preview.png);
+    border-radius: 20px;
+    height: 200px;
+    width: 170px;
+    position: relative;
+}
+
+.flexboxes .label{
+    /* padding-top: 20px; */
+    background: transparent;
+    /* padding-left: 5px; */
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+}
+
+.flexbox2{
+    /* background-color: rgba(0, 0, 255, 0.37); */
+    background: url(/images/web_development-removebg-preview.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 200px;
+    width: 170px;
+    position: relative;
+}
+
+.flexbox3{
+    /* background-color: rgba(0, 0, 255, 0.37); */
+    background: url(/images/digital_marketing-removebg-preview.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 200px;
+    width: 170px;
+    position: relative;
+}
+
+.flexbox4{
+    /* background-color: rgba(0, 0, 255, 0.37); */
+    background: url(/images/app_development-removebg-preview-removebg-preview.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 200px;
+    width: 170px;
+    position: relative;
+}
+
+.flexbox5{
+    /* background-color: rgba(0, 0, 255, 0.37); */
+    background: url(/images/product_design-removebg-preview.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 200px;
+    width: 170px;
+    position: relative;
+}
+
+.flexbox1:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 255, 0.4);
+}
+
+.flexbox2:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 255, 0.4);
+}
+
+.flexbox3:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 255, 0.4);
+}
+
+.flexbox4:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 255, 0.4);
+}
+.flexbox5:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 255, 0.4);
+}
+
+.getskills{
+    background: url(/images/pexels-fauxels-3184611__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 5%;
+    /* margin-top: 200px; */
+    width: 100%;
+    height: 500px;
+}
+
+.getskills button:hover{
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 255, 0.5);
+}
+
+.getskills button{
+    font-weight: bolder;
+    color: #fff;
+    background-color: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 20px;
+    border: none;
+}
+
+.skills, .digitalfuture{
+    color: blue;
+}
